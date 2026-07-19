@@ -1,9 +1,9 @@
 {
   "id": "airRallyEn",
-  "name": "Air Rally",
+  "name": "バドミントン (英語)",
   "series": "fever",
   "language": "en",
-  "group": "Air Rally",
+  "group": "バドミントン",
   "groupDefault": true,
   "objects": [
     {
