@@ -1,9 +1,9 @@
 {
   "id": "airRallyJa",
-  "name": "Air Rally",
+  "name": "バドミントン",
   "series": "fever",
   "language": "ja",
-  "group": "Air Rally",
+  "group": "バドミントン",
   "objects": [
     {
       "type": "cue",
