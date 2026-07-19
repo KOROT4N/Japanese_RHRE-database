@@ -1,0 +1,326 @@
+{
+  "id" : "backupSpotlight",
+  "name" : "ダンサー",
+  "series" : "other",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/stop",
+    "name" : "「ｱｳ!」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/one",
+    "name" : "「ﾜﾝｯ!」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/two",
+    "name" : "「ﾂ!」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/three",
+    "name" : "「ｽﾘ!」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.042
+  }, {
+    "type" : "cue",
+    "id" : "*/elbow",
+    "name" : "ﾊﾟｧﾝ (決め)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/elbowprep1",
+    "name" : "「ｽﾞｯ」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/elbowprep2",
+    "name" : "「ｷｰ!」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/guu",
+    "name" : "「ｸﾞｯ!」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/haa",
+    "name" : "「ﾊｯ!」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/turn",
+    "name" : "向き変え",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/turnprep1",
+    "name" : "「ﾀﾝｯ」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/turnprep2",
+    "name" : "「ﾀﾝ!」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/signleft",
+    "name" : "左サイン",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/signright",
+    "name" : "右サイン",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/fastturn1",
+    "name" : "「ｶｯ」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/fastturn2",
+    "name" : "「ｸｰﾝ!」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "pattern",
+    "id" : "*_elbow",
+    "name" : "ダンス開始 (声)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/elbowprep1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/elbowprep2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/guu",
+      "beat" : 1.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_elbowing",
+    "name" : "ダンス",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/elbow",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/elbow",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_elbowvoice",
+    "name" : "ダンス (声)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/haa",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/haa",
+      "beat" : 2.0,
+      "volume" : 86
+    }, {
+      "id" : "*/haa",
+      "beat" : 4.0,
+      "volume" : 72
+    }, {
+      "id" : "*/haa",
+      "beat" : 6.0,
+      "volume" : 58
+    }, {
+      "id" : "*/haa",
+      "beat" : 8.0,
+      "volume" : 44
+    }, {
+      "id" : "*/haa",
+      "beat" : 10.0,
+      "volume" : 30
+    }, {
+      "id" : "*/haa",
+      "beat" : 12.0,
+      "volume" : 16
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_stop",
+    "name" : "ダンス終了 (声)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/three",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/two",
+      "beat" : 1.0
+    }, {
+      "id" : "*/one",
+      "beat" : 2.0
+    }, {
+      "id" : "*/stop",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_turndanceleft",
+    "name" : "左から横ダンス",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/turnprep1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/turnprep2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/signleft",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/signleft",
+      "beat" : 1.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_turndanceright",
+    "name" : "右から横ダンス",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/turnprep1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/turnprep2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/signright",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/signright",
+      "beat" : 1.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_dancing",
+    "name" : "横ダンス",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/turn",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/elbow",
+      "beat" : 1.0
+    }, {
+      "id" : "*/turn",
+      "beat" : 2.0
+    }, {
+      "id" : "*/elbow",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_fastturnleft",
+    "name" : "左カックン",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/fastturn1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/fastturn2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/turn",
+      "beat" : 2.0
+    }, {
+      "id" : "*/elbow",
+      "beat" : 2.5
+    }, {
+      "id" : "*/signleft",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/signleft",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/haa",
+      "beat" : 2.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_fastturnright",
+    "name" : "右カックン",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/fastturn1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/fastturn2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/turn",
+      "beat" : 2.0
+    }, {
+      "id" : "*/elbow",
+      "beat" : 2.5
+    }, {
+      "id" : "*/signright",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/signright",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/haa",
+      "beat" : 2.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  } ]
+}
