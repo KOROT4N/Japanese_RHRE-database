@@ -1,0 +1,461 @@
+{
+  "id" : "alienAlphabet",
+  "name" : "会話",
+  "series" : "other",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/alienbom",
+    "name" : "宇宙人「ボッ」(◀)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/bomblink",
+    "name" : "宇宙人「ボッ」(楽器)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/aliencha1",
+    "name" : "宇宙人「ウッ」(A)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/aliencha2",
+    "name" : "宇宙人「チャッ」(A)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/chablink",
+    "name" : "宇宙人「チャッ」(楽器)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/bomhit",
+    "name" : "プレイヤー「ボッ」(楽器)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/chahit",
+    "name" : "プレイヤー「チャッ」(楽器)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/boybom",
+    "name" : "男の子「ボッ」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/boycha",
+    "name" : "男の子「チャッ」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.035
+  }, {
+    "type" : "cue",
+    "id" : "*/boygrownbom",
+    "name" : "男性「ボッ」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/boygrowncha",
+    "name" : "男性「チャッ」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/girlbom",
+    "name" : "女の子「ボッ」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/girlcha",
+    "name" : "女の子「チャッ」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/girlgrownbom",
+    "name" : "女性「ボッ」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/girlgrowncha",
+    "name" : "女性「チャッ」",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/success1",
+    "name" : "正解1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/success2",
+    "name" : "正解2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.75
+  }, {
+    "type" : "pattern",
+    "id" : "*_cha",
+    "name" : "「ウッチャッチャッチャッ」「ボッボッ」",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/aliencha1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 1.75
+    }, {
+      "id" : "*/boybom",
+      "beat" : 2.5
+    }, {
+      "id" : "*/girlbom",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/boybom",
+      "beat" : 3.0
+    }, {
+      "id" : "*/girlbom",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 3
+    }, {
+      "id" : "*/chablink",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/chablink",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/chablink",
+      "beat" : 1.75,
+      "track" : 1
+    }, {
+      "id" : "*/bomhit",
+      "beat" : 2.5,
+      "track" : 2
+    }, {
+      "id" : "*/bomhit",
+      "beat" : 3.0,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_bom",
+    "name" : "「ボッボッボッボッ」「チャ」",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/alienbom",
+      "beat" : 0.0
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 0.75
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 1.5
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 2.0
+    }, {
+      "id" : "*/boycha",
+      "beat" : 3.0
+    }, {
+      "id" : "*/girlcha",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 3
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 0.75,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 2.0,
+      "track" : 1
+    }, {
+      "id" : "*/chahit",
+      "beat" : 3.0,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_bomcha",
+    "name" : "「ボンボンチャ」「ボンチャ」",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/alienbom",
+      "beat" : 0.0
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 0.5
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/boybom",
+      "beat" : 2.5
+    }, {
+      "id" : "*/boycha",
+      "beat" : 3.0
+    }, {
+      "id" : "*/girlbom",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/girlcha",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 3
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/chablink",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/bomhit",
+      "beat" : 2.5,
+      "track" : 2
+    }, {
+      "id" : "*/chahit",
+      "beat" : 3.0,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_chaGrown",
+    "name" : "(大人)「ウッチャッチャッチャッ」「ボッボッ」",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/aliencha1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 1.75
+    }, {
+      "id" : "*/boygrownbom",
+      "beat" : 2.5
+    }, {
+      "id" : "*/boygrownbom",
+      "beat" : 3.0
+    }, {
+      "id" : "*/girlgrownbom",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/girlgrownbom",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 3
+    }, {
+      "id" : "*/chablink",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/chablink",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/chablink",
+      "beat" : 1.75,
+      "track" : 1
+    }, {
+      "id" : "*/bomhit",
+      "beat" : 2.5,
+      "track" : 2
+    }, {
+      "id" : "*/bomhit",
+      "beat" : 3.0,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_bomGrown",
+    "name" : "(大人)「ボッボッボッボッ」「チャ」",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/alienbom",
+      "beat" : 0.0
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 0.75
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 1.5
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 2.0
+    }, {
+      "id" : "*/boygrowncha",
+      "beat" : 3.0
+    }, {
+      "id" : "*/girlgrowncha",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 3
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 0.75,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 2.0,
+      "track" : 1
+    }, {
+      "id" : "*/chahit",
+      "beat" : 3.0,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_bomchaGrown",
+    "name" : "(大人)「ボンボンチャ」「ボンチャ」",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/alienbom",
+      "beat" : 0.0
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 0.5
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/boygrownbom",
+      "beat" : 2.5
+    }, {
+      "id" : "*/boygrowncha",
+      "beat" : 3.0
+    }, {
+      "id" : "*/girlgrownbom",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/girlgrowncha",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 3
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/chablink",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/bomhit",
+      "beat" : 2.5,
+      "track" : 2
+    }, {
+      "id" : "*/chahit",
+      "beat" : 3.0,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_success",
+    "name" : "正解",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/success1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/success2",
+      "beat" : 0.25
+    } ],
+    "subtext" : ""
+  } ]
+}
